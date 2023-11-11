@@ -9,6 +9,12 @@
   width: 300px;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .product-image {
   width: 100%;
 }
@@ -46,5 +52,6 @@
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
+    flex-direction: row;
   }
 }
