@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 
-.container {
+.product-card {
+  box-shadow: 2px 2px 2px grey;
+  margin-bottom: 100px;
+  padding: 30px;
 }
 
 .product-image {
-  width: 200px;
+  width: 300px;
 }
 
 .product-heading {
@@ -19,10 +22,12 @@
   background-color: rgb(129, 13, 129);
   color: white;
   border: none;
+  font-size: 20px;
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
-  width: 100px;
+  width: 150px;
+  margin: 12px 0;
 }
 
 .details {
