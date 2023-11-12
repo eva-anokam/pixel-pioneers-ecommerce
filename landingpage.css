@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Mono:wght@100&display=swap');
+
+body {
+    background: url(image/images.jpeg) no-repeat center/cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    background: url(image/images\ \(2\).jpeg) no-repeat center/cover;
+    border-radius: 1rem;
+}
+
+.hero {
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    width: 1400px;
+    height: 900px;
+    background: url(image/INTROIMG.jpg) no-repeat center/cover;
+    box-shadow: 20px;
+    border-radius: 1rem
+}
+
+.hero2 {
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    width: 1400px;
+    height: 900px;
+    background: url(image/about-us.jpg) no-repeat center/cover;
+    box-shadow: 20px;
+    border-radius: 1rem
+}
+
+.paragraph {
+    color: aliceblue; 
+    font-size: 21px;
+    padding-top: 12rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.link1 {
+    background: url(image/images\ \(2\).jpeg) no-repeat center/cover;
+    width: fit-content;
+    margin: auto;
+    border-radius: 0.3rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.link2 {
+    color: aliceblue;
+    background: url(image/images\ \(2\).jpeg) no-repeat center/cover;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+/* EDITED BY SIMISOLA AND CHINYERE */
