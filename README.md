@@ -1,13 +1,13 @@
 # Project Title: Pixel Pioneers Ecommerce
 ## Table of Contents
 
-- [Project description](#Project description)
+- [Project-Description](#Project-description)
 - [Project Structure](#Project-Structure)
 - [Screenshot](#Screenshot)
 - [Links](#Links)
 - [Built with](#Built-with)
 - [What we learned](#What-we-learned)
-- [Continued Development](#Continued Development)
+- [Continued-Development](#Continued Development)
 - [Author](#Author)
 - [Acknowledgement](#Acknowledgement)
 
