@@ -3,41 +3,62 @@
 body {
     background: url(image/images.jpeg) no-repeat center/cover;
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    
 }
 
-h1 {
+.header {
     text-align: center;
     color: aliceblue;
     background: url(image/images\ \(2\).jpeg) no-repeat center/cover;
     border-radius: 1rem;
+    position: relative;
+    padding: 4px 0;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.logo img {
+    width: 65px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 .hero {
     margin: auto;
     text-align: center;
-    padding: 1rem;
-    width: 1400px;
-    height: 900px;
-    background: url(image/INTROIMG.jpg) no-repeat center/cover;
+    padding: 150px 50px;
+    background:linear-gradient(rgba(0, 0, 0, 0.726), rgba(0,0,0,0.8)), url(image/INTROIMG.jpg) no-repeat center/cover;
     box-shadow: 20px;
+    background-attachment: fixed;
     border-radius: 1rem
 }
 
 .hero2 {
     margin: auto;
     text-align: center;
-    padding: 1rem;
-    width: 1400px;
-    height: 900px;
-    background: url(image/about-us.jpg) no-repeat center/cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.726), rgba(0,0,0,0.8)), url(image/about-us.jpg) no-repeat center/cover ;
     box-shadow: 20px;
-    border-radius: 1rem
+    border-radius: 1rem;
+    background-attachment: fixed;
+    padding: 150px 50px;
 }
 
 .paragraph {
     color: aliceblue; 
     font-size: 21px;
-    padding-top: 12rem;
 }
 
 img {
@@ -72,6 +93,11 @@ a {
 
 a:hover {
     color: gold;
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
 }
 
 /* EDITED BY SIMISOLA AND CHINYERE */
