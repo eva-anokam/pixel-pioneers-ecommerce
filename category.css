@@ -6,9 +6,71 @@
   box-sizing: border-box;
 }
 
-body {
-  color: aliceblue;
+body { 
   background: url(image/images.jpeg) no-repeat center/cover;
   font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link1, .link2{
+  margin: 50px;
+  background: url(image/images\ \(2\).jpeg) no-repeat center/cover;
+  width: fit-content;
+  text-align: center;
+}
+
+.heading{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 70px;
+}
+
+.section{
+  padding: 30px;
+  margin-bottom: 5px;
+  width: 300px;
+  background: url(image/images\ \(1\).jpeg) no-repeat center/cover;
+  border-radius: 0.5rem;
+}
+
+#products-categories{
+  color: aliceblue;
+  list-style: none;
+}
+
+li:hover {
+  color: gold;
+}
+
+.link3 {
+  background: url(image/images\ \(2\).jpeg) no-repeat center/cover;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  border-radius: 0.3rem;
+  margin: 10px auto;
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+a:hover {
+  color: gold;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
 }
 
