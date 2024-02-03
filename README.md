@@ -42,6 +42,8 @@ Here's a quick overview of the project structure:
   ![](./image/main.png)
 - Here is the screenshot to the Product Page:
   ![](./image/products.png)
+  - Here is the screenshot to the Categories Page:
+    ![](./image/categories.png)
 
 ## Built With
 
@@ -62,15 +64,15 @@ Here's a quick overview of the project structure:
 
 ## Author
 
-- Pixels Pioneers Team inculding github names
+- Pixels Pioneers Team including github names
 - Anob-Ejah Takon - Ahnob
 - Blessing Obasohan - OsasTheCoder
 - Chinyere Obeleagu
 - Christiana Eke - Khryztie
 - Eva Anokam - eva-anokam
 - Faith Ajidele -
-- Solihat Opaleye
-- Simisola Olubodun
+- Solihat Opaleye - olajumoke-1
+- Simisola Olubodun - ceemin
 - Taiwo Oyewale - TaiwoSaidat
 - Tawakalitu Haruna
 

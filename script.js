@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const loadMoreBtn = document.getElementById('load-more')
-    let currPage = 0;""
+    let currPage = 0;
     let startIndex = 0;
     let endIndex = 5;
 
@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const page2 = products.slice(startIndex + 5, endIndex + 5)
         const page3 = products.slice(startIndex + 10, endIndex + 10)
         const page4 = products.slice(startIndex + 15, endIndex + 15)
-        console.log(page2)
         
     if (currPage === 1){
         page1.forEach(product => {
