@@ -24,13 +24,21 @@ document.addEventListener('DOMContentLoaded', () => {
             productDIv.className = 'product-card'
             productDIv.innerHTML = `
             <img src=${product.image} alt=${product.title} id="product-image">
+            <div class="flow product-text">
             <h3 id="product-name">${product.title}</h3>
-            <p id="product-description">${product.description}</p>
+            <p id="product-description" class="truncate-text">${product.description} </p>
+            <p class="read-more">Read more</p>
+            </div>
+            <div class="product-details">
             <p id="product-price">$ ${product.price}</p>
             <p id="product-category">${product.category}</p>
+            </div>
             <p id="product-rating">${product.rating.rate} (${product.rating.count} reviews)</p>
+            <button class="cta-link">Buy now</button>
             `
             container.appendChild(productDIv)
+
+
         })
     } else if (currPage === 2) {
         page2.forEach(product => {
@@ -38,13 +46,21 @@ document.addEventListener('DOMContentLoaded', () => {
             productDIv.className = 'product-card'
             productDIv.innerHTML = `
             <img src=${product.image} alt=${product.title} id="product-image">
+            <div class="flow product-text">
             <h3 id="product-name">${product.title}</h3>
-            <p id="product-description">${product.description}</p>
+            <p id="product-description" class="truncate-text">${product.description} </p>
+            <p class="read-more">Read more</p>
+            </div>
+            <div class="product-details">
             <p id="product-price">$ ${product.price}</p>
             <p id="product-category">${product.category}</p>
+            </div>
             <p id="product-rating">${product.rating.rate} (${product.rating.count} reviews)</p>
+            <button class="cta-link">Buy now</button>
             `
             container.appendChild(productDIv)
+
+
         })
     } else if (currPage === 3) {
         page3.forEach(product => {
@@ -52,13 +68,21 @@ document.addEventListener('DOMContentLoaded', () => {
             productDIv.className = 'product-card'
             productDIv.innerHTML = `
             <img src=${product.image} alt=${product.title} id="product-image">
+            <div class="flow product-text">
             <h3 id="product-name">${product.title}</h3>
-            <p id="product-description">${product.description}</p>
+            <p id="product-description" class="truncate-text">${product.description} </p>
+            <p class="read-more">Read more</p>
+            </div>
+            <div class="product-details">
             <p id="product-price">$ ${product.price}</p>
             <p id="product-category">${product.category}</p>
+            </div>
             <p id="product-rating">${product.rating.rate} (${product.rating.count} reviews)</p>
+            <button class="cta-link">Buy now</button>
             `
             container.appendChild(productDIv)
+
+
         })
     } else if (currPage === 4) {
         page4.forEach(product => {
@@ -66,25 +90,47 @@ document.addEventListener('DOMContentLoaded', () => {
             productDIv.className = 'product-card'
             productDIv.innerHTML = `
             <img src=${product.image} alt=${product.title} id="product-image">
+            <div class="flow product-text">
             <h3 id="product-name">${product.title}</h3>
-            <p id="product-description">${product.description}</p>
+            <p id="product-description" class="truncate-text">${product.description} </p>
+            <p class="read-more">Read more</p>
+            </div>
+            <div class="product-details">
             <p id="product-price">$ ${product.price}</p>
             <p id="product-category">${product.category}</p>
+            </div>
             <p id="product-rating">${product.rating.rate} (${product.rating.count} reviews)</p>
+            <button class="cta-link">Buy now</button>
             `
             container.appendChild(productDIv)
+
+
         })
     } else {
         alert ('No more products to show')
-    }
+        }
+        const readMoreBtn = document.querySelectorAll(".read-more")
+        readMoreBtn.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const description = btn.previousElementSibling
+                description.classList.toggle("truncate-text")
+                if (!description.classList.contains("truncate-text")) {
+                    btn.textContent = "Collapse"
+                } else {
+                    btn.textContent = "Read more"
+                }
+           })
+       })
     }
 
     loadMoreBtn.addEventListener('click', async ()=> {
         const products = await getProducts()
         currPage = currPage + 1
         displayProducts(products)
-    console.log(currPage)
+        
 })
     
     loadMoreBtn.click()
+
+    
 })
