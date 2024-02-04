@@ -196,6 +196,8 @@ Product section
   display: block;
   width: min(100%, 200px);
   margin-inline: auto;
+  height: 140px;
+  object-fit: contain;
 }
 .product-text{
   --flow-space: .5rem;
