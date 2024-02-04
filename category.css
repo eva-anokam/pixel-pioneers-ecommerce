@@ -179,6 +179,7 @@ Category list
 */
 #products-categories{
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   justify-content: center;
   align-items: center;
@@ -196,6 +197,13 @@ Category list
 }
 .products-container{
   margin-top: 4rem;
+}
+
+@media(min-width: 760px) {
+  #products-categories{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 /*
