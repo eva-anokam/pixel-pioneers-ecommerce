@@ -39,11 +39,11 @@ Here's a quick overview of the project structure:
 ## Screenshot
 
 - Here is the screenshot to the Main Page:
-  ![](./image/main.png)
+  ![](./image/screenshot-landingpage.png)
 - Here is the screenshot to the Product Page:
-  ![](./image/products.png)
+  ![](./image/screenshot-productpage.png)
   - Here is the screenshot to the Categories Page:
-    ![](./image/categories.png)
+    ![](./image/screenshot-products-categories.png)
 
 ## Built With
 
